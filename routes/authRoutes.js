@@ -16,6 +16,8 @@ module.exports = (app) => {
     });
 
     app.get('/api/current_user', (req, res) => {
+      // part of request object property that populates user's id under passport
+      // res.send(req.session);
       res.send(req.user);
     });
 };
