@@ -32,7 +32,7 @@ class Header extends Component {
             className="left brand-logo"
             style={{ margin: '0 10px' }}
           >
-            Emaily
+            MailerMonkey
           </Link>
           <ul className="right">
             {this.renderContent()}
